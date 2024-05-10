@@ -18,7 +18,7 @@ Here is the procedure on how to work with the GitHub repo, when you want to star
 
 - branch: use `develop` branch as default
 - Keep the code clean, style consistent
-- Try to use the dependent libraries we provide. If you have special needs, please contact @jhcao23 or @keyskull 
+- Try to use the dependent libraries we provide. If you have special needs, please contact [@jhcao23](https://github.com/jhcao23) or [@keyskull](https://github.com/keyskull)
 - Always think about code reusability
 - Pls let us know if you have any questions about this procedure
 
