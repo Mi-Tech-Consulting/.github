@@ -1,15 +1,24 @@
 ## Hi there 👋
 
 # 🌈 Contribution guidelines
-```markdown
-Here is the procedure on how to work with the GitHub repo, when you want to start coding:
-1. fork the origin repo to your PERSONAL PRIVATE repo
-2. working on your new repo, (usually you wanna check out a few feature branches thus to keep the default branch easy to sync and merge from - it is a bit tricky)
-3. when your code is ready to merge, pls create a PULL REQUEST from your repo to the origin repo, for 
 
-- branch: use `develop` branch as default
-- Pls let us know if you have any questions about this procedure
-```
+Here is the procedure on how to work with the GitHub repo, when you want to start coding:
+
+Fork the origin repo to your PERSONAL PRIVATE repo
+Working on your new repo, (usually you wanna check out a few feature branches thus to keep the default branch easy to sync and merge from - it is a bit tricky)
+When your code is ready to merge, pls create a PULL REQUEST from your repo to the origin repo
+Before merging, pls make sure you have run the following commands:
+npm install
+npm run build
+and then commit the changes to the PR
+Once the PR is approved, it will be merged to the origin repo
+Once the PR is merged, you can delete your PR branch
+branch: use develop branch as default
+Keep the code clean, style consistent
+Try to use the dependent libraries we provide. If you have special needs, please contact @jhcao23 or @keyskull
+Always think about code reusability
+Pls let us know if you have any questions about this procedure
+
 
 <!--
 
