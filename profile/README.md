@@ -10,7 +10,7 @@ Here is the procedure on how to work with the GitHub repo, when you want to star
    npm run build
    ```
    and then commit the changes to the PR
-5. Once the PR is approved, it will be merged to the origin repo
+5. Once the PR is approved, it will be merged into the origin repo
 6. Once the PR is merged, you can delete your PR branch
 
 - branch: use `develop` branch as default
@@ -24,7 +24,7 @@ Here is the procedure on how to work with the GitHub repo, when you want to star
 
 ## How to Run a Develop Environment in Local 
 
-* copy `dev.next.config.js.sample` file to `dev.next.config.js`
+* copy the `dev.next.config.js.sample` file to `dev.next.config.js`
 
 Initial your project with the following commands:
 ```console
@@ -42,7 +42,17 @@ You should now be able to access the application at http://localhost:3000.
 
 Make sure you haven't run multiple instances for the same application at the same time.
 
+## 🙋‍♀️ Rule of Submitting Your Code
 
+Please make sure your code is locally built correctly before your `git push`.
+Use command: 
+```console
+npm run build
+```
+to make sure the code you build is not in conflict.
+Then use regular git operation to submit your code.
+
+Thanks!
 
 <!--
 
