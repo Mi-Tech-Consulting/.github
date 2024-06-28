@@ -38,19 +38,15 @@ Finally, run the following commands to start the development server:
 npm run dev
 ```
 
-You should now be able to access the application at http://localhost:3000.
-
-Make sure you haven't run multiple instances for the same application at the same time.
-
 ## 🙋‍♀️ Rule of Submitting Your Code
 
-Please make sure your code is locally built correctly before your `git push`.
-Use command: 
-```console
-npm run build
-```
-to make sure the code you build is not in conflict.
+Please make sure your code is locally built correctly 
+
+!!! Before your `git push`, use the command: `npm run build` to make sure the code you build is not in conflict.
 Then use regular git operation to submit your code.
+
+You should now be able to access the application at http://localhost:3000.
+Make sure you haven't run multiple instances for the same application at the same time.
 
 Thanks!
 
